@@ -7,15 +7,15 @@ This project implements a simplified version of a YouTube-like application using
 
 ## Components
 
-1. YouTuber
+#### 1. YouTuber
 
 The YouTuber service allows users to publish videos on the YouTube server. It sends messages containing the video name and the YouTuber’s name to the server.
 
-2. User
+#### 2. User
 
 The User service allows users to subscribe or unsubscribe to YouTubers and receive real-time notifications whenever a YouTuber they subscribe to uploads a new video. Users communicate with the YouTube server to manage subscriptions and receive notifications.
 
-3. YouTube Server
+#### 3. YouTube Server
 
 The YouTube server consumes messages from both users and YouTubers, storing data, managing subscriptions, and sending notifications. It processes login, subscription, and unsubscription requests from users and handles video uploads from YouTubers.
 
